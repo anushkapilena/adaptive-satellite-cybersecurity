@@ -221,3 +221,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project virtual environments
+.venv/
+.venv_models/
+
+# Satellite datasets and generated arrays
+*.npz
+*.npy
+*.parquet
+*.pkl
+*.pickle
+
+# Trained model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.log
+__pycache__/
